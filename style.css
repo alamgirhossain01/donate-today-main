@@ -6,6 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+
 }
 
 .top-banner {
@@ -25,9 +26,10 @@ body {
     color: white;
 }
 
-p {
+.main-header-paragraph {
     color: white;
-    padding: 0px 120px 0px;
+    font-weight: 400;
+    padding: 0px 120px 20px;
     font-size: 20px;
 }
 
@@ -37,5 +39,67 @@ a {
     text-decoration: none;
     padding: 15px 30px;
     border-radius: 12px;
+}
+
+.Donate-part {
+    text-align: center;
+    padding: 40px;
+}
+
+.Donate-part-amount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+input {
+    padding: 5px 100px;
+    margin-bottom: 35px;
+}
+
+.enter-amount {
+    padding: 55px;
+    margin: 10px;
+    background-color: rgba(224, 224, 239, 0.416);
+}
+
+span {
+    padding: 55px;
+    margin: 10px;
+    background-color: tomato;
+}
+
+.Donate-plan {
+    text-align: center;
+}
+
+.Donate-plan-family {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    padding-bottom: 40px;
+    width: 100%;
+}
+
+.food-for-family {
+    background-color: rgb(27, 160, 116);
+    margin: 10px;
+    padding: 30px;
+    width: 30%;
+}
+
+.shelter-for-family {
+    background-color: rgb(163, 127, 255);
+    margin: 10px;
+    padding: 30px;
+    width: 30%;
+}
+
+.education-for-child {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 30px;
+    width: 30%;
 
 }
