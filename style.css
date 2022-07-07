@@ -104,22 +104,24 @@ span {
 
 }
 
-footer {
-    background-color: black;
-    padding-bottom: 40px;
+.blog-part {
+    display: flex;
 }
 
-.footer-part-header {
-    color: tomato;
-    text-align: center;
-    font-family: Brush Script MT;
-    padding-top: 25px;
-    font-size: 45px;
+.blog-part-img img {
+    width: 400px;
+    height: 200px;
+    padding: 30px 15px 30px 60px;
 }
 
-.footer-last-part {
+.blog-text-part {
     text-align: center;
-    color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+.blog-paragraph {
+    padding-bottom: 20px;
 }
 
 .box {
@@ -141,4 +143,22 @@ footer {
 button {
     padding: 5px 20px;
     background: tomato;
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 40px;
+}
+
+.footer-part-header {
+    color: tomato;
+    text-align: center;
+    font-family: Brush Script MT;
+    padding-top: 25px;
+    font-size: 45px;
+}
+
+.footer-last-part {
+    text-align: center;
+    color: white;
 }
