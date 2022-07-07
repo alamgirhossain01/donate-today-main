@@ -121,3 +121,24 @@ footer {
     text-align: center;
     color: white;
 }
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.form-text-part {
+    text-align: center;
+}
+
+.form-box {
+    padding: 10px;
+    background: white;
+}
+
+button {
+    padding: 5px 20px;
+    background: tomato;
+}
